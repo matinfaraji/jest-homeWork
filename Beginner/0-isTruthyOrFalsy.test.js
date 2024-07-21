@@ -1,6 +1,6 @@
 const isTruthyOrFalsy = require("./0-isTruthyOrFalsy");
 
-describe("isTruthy", () => {
+describe("isTruthy or falsy", () => {
   test("isTruthy values", () => {
     expect(isTruthyOrFalsy(true)).toBeTruthy();
     expect(isTruthyOrFalsy("hello")).toBeTruthy();
